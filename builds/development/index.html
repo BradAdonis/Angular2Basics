@@ -9,13 +9,13 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link type="text/css" rel="stylesheet" href="styles/styles.css"/>
-    <script src="js/lib/es6-shim.min.js"></script>
-    <script src="js/lib/system-polyfills.js"></script>
-    <script src="js/lib/shims_for_IE.js"></script>   
-    <script src="js/lib/angular2-polyfills.js"></script>
-    <script src="js/lib/system.src.js"></script>
-    <script src="js/lib/Rx.js"></script>
-    <script src="js/lib/angular2.dev.js"></script>
+    <script src="app/es6-shim.min.js"></script>
+    <script src="app/system-polyfills.js"></script>
+    <script src="app/shims_for_IE.js"></script>   
+    <script src="app/angular2-polyfills.js"></script>
+    <script src="app/system.src.js"></script>
+    <script src="app/Rx.js"></script>
+    <script src="app/angular2.dev.js"></script>
     
     <!--<script src="../../node_modules/es6-shim/es6-shim.min.js"></script>
     <script src="../../node_modules/systemjs/dist/system-polyfills.js"></script>
@@ -35,7 +35,7 @@
           }
         }
       });
-      System.import('js/main')
+      System.import('app/main')
             .then(null, console.error.bind(console));
     </script>
   </head>
